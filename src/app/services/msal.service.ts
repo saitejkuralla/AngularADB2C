@@ -8,13 +8,13 @@ export class MsalService {
 
     B2CTodoAccessTokenKey = "b2c.access.token";
     tenantConfig = {
-        tenant: "EPAM0926Tenant.onmicrosoft.com",
+        tenant: "Saitej0926Tenant.onmicrosoft.com",
         // Replace this with your client id 
         clientID: "fd81674c-558c-474d-aa3e-2029112d31b0",
         signInPolicy: "B2C_1_exampleUserFlow",
         signUpPolicy:"B2C_1_exampleUserFlow",
         redirectUri:"http://localhost:4200",
-        b2cScopes:["https://EPAM0926Tenant.onmicrosoft.com/access-api/user_impersonation"]
+        b2cScopes:["https://Saitej0926Tenant.onmicrosoft.com/access-api/user_impersonation"]
     };
 
     // Configure the authority for Azure AD B2C
